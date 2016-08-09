@@ -6,6 +6,7 @@ RUN apt-get update -qq && \
         build-essential \
         libpq-dev \
         nodejs \
+        netcat \
         supervisor
 
 # Use en_US.UTF-8 as our locale
